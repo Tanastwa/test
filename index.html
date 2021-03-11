@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='Main.css'/>
+    <title>Clock</title>
+</head>
+<body>
+    <div id='clock'>
+
+        <div id='Time'>
+            <h1>TIME</h1>
+            <span class='time-text' id='hours'>00</span>
+            <span class='time-text' id='minutes'>00</span>
+            <span class='time-text' id='seconds'>00</span>
+        </div>
+
+        <div id='Stop-Watch'>
+            <h1>STOP-WATCH</h1>
+            <div id='stop-watch-container'>
+                <span class='time-text' id='Counter-hours' style='display:none'>0</span>
+                <span class='time-text' id='Counter-minutes' style='display:none'>0</span>
+                <span class='time-text' id='Counter-seconds'>0</span>
+            </div>
+            <div id='buttons'>
+
+                <span class='btns'id='start-count-btn'>▶</span>
+                <span class='btns'id='pause-count-btn' style='display:none'>⏸</span> 
+                <span class='btns'id='reset-count-btn' style='display:none'>🔁</span> 
+            </div>
+        </div>
+        <div id='Countdown'>
+            <h1>STOP-WATCH</h1>
+            <span class='time-text' id='hours'>00</span>
+            <span class='time-text' id='minutes'>00</span>
+            <span class='time-text' id='seconds'>00</span>
+            
+    </div>
+
+</div>
+    <script src='App.js'></script>
+</body>
+</html>
